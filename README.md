@@ -18,7 +18,7 @@ The server listens on all network interfaces (0.0.0.0) on port 8200. TLS is disa
 
 The UI is enabled and `mlock` is disabled to avoid locking memory.
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 
 ## Environment Variables
 Both are in docker-compose file
@@ -31,7 +31,7 @@ Both are in docker-compose file
 
 1. Clone the Repo
 ```shell 
-    git clone https://github.com/melihteke/vault.git
+git clone https://github.com/melihteke/vault.git
 ```
 
 2. Build the Docker image by running the following command:
@@ -223,6 +223,6 @@ policies             ["root"]
 http://<host-device-ip-address>:8200/
 ```
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
