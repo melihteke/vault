@@ -9,4 +9,5 @@ launch:
 
 .PHONY: attach
 attach:
-	docker exec -it mteke/vault-filesystem:0.1 /bin/sh
+	docker exec -it vault-vault-filesystem-1 /bin/sh
+
