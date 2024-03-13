@@ -1,6 +1,6 @@
 .PHONY: build
 build:
-    docker build -t mteke/vault-filesystem:0.1 .
+	docker build -t mteke/vault-filesystem:0.1 .
 
 
 .PHONY: launch
@@ -10,4 +10,3 @@ launch:
 .PHONY: attach
 attach:
 	docker exec -it mteke/vault-filesystem:0.1 /bin/sh
-	
